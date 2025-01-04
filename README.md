@@ -14,9 +14,10 @@ Pastikan Anda sudah menginstal:
 ### 1. Menjalankan PostgreSQL menggunakan Docker Compose
 Jalankan perintah berikut untuk memulai layanan PostgreSQL:
 
+<pre><code> docker composer up -d </code> </pre>
 
 ### 2. Access the database 
-<pre></code> docker exec -it postgres_container psql -U myuser -d mydatabase
+<pre></code> docker exec -it postgres_container psql -U myuser -d mydatabase </code> </pre>
 
 ### 3. Exit database
 <pre></code> Exit </code> </pre>
